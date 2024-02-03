@@ -72,7 +72,7 @@ export default function What() {
           className="absolute text-5xl w-[50svw] text-center font-bold"
           style={{ scale: scale2, opacity: opacity2 }}
         >
-          It's a biweekly{" "}
+          It&apos;s a biweekly{" "}
           <span className="relative">
             {" "}
             <svg
