@@ -8,11 +8,11 @@ export default function What() {
     target: container,
   });
 
-  const scale1 = useTransform(scrollYProgress, [0.1, 0.4], [1, 2]);
+  const scale1 = useTransform(scrollYProgress, [0.1, 0.4], [1, 1.5]);
   const opacity1 = useTransform(scrollYProgress, [0.3, 0.4], [1, 0]);
-  const scale2 = useTransform(scrollYProgress, [0.5, 0.7], [0.7, 1]);
-  const opacity2 = useTransform(scrollYProgress, [0.5, 0.7], [0, 1]);
-  const pathlength = useTransform(scrollYProgress, [0.8, 0.9], [0, 1]);
+  const scale2 = useTransform(scrollYProgress, [0.42, 0.6], [0.7, 1]);
+  const opacity2 = useTransform(scrollYProgress, [0.42, 0.6], [0, 1]);
+  const pathlength = useTransform(scrollYProgress, [0.7, 0.9], [0, 1]);
   const opacity3 = useTransform(scrollYProgress, [0.92, 0.98], [0, 1]);
 
   return (

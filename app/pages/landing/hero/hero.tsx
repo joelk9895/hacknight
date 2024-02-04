@@ -13,7 +13,7 @@ export default function Hero() {
           <br />
           <span className="text-[#DBF72C] text-[5rem]">hacknight</span>
         </h1>
-        <p className="mt-[2rem]">
+        <p className="mt-[2rem] text-white">
           A biweekly hackathon for learning new technologies
         </p>
         <button className="mt-[3rem] bg-[#151515fa] text-[#DBF72C] px-5 py-2 rounded-lg">
