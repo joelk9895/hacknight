@@ -18,7 +18,7 @@ export default function What() {
   return (
     <motion.section
       ref={container}
-      className="w-[100svw] h-[800vh] rounded-3xl bg-black text-white"
+      className="w-[100svw] h-[800vh] bg-black text-white"
     >
       <div className="w-full h-[100svh] sticky top-0 left-0 flex flex-col items-center justify-center bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
         <motion.h2
