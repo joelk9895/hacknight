@@ -8,7 +8,7 @@ export default function Hero() {
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
         />
-        <h1 className="text-8xl font-bold text-center mt-10">
+        <h1 className="text-8xl font-bold text-center mt-10 text-white">
           saturday
           <br />
           <span className="text-[#DBF72C] text-[5rem]">hacknight</span>
