@@ -28,17 +28,17 @@ function FAQ({ question, answer }: FAQProps) {
   return (
     <div className="bg-black text-3xl font-thin lowercase w-[80vw]">
       <div className="flex" onClick={toggleOpen}>
-        <h3>{question}</h3>
-        <span>{isOpen ? "▲" : "▼"}</span>
+        <h3 className="font-medium">{question}</h3>
+        <span className="text-[#DBF72C]">{isOpen ? "▲" : "▼"}</span>
       </div>
-      {isOpen && <p className="faq-answer">{answer}</p>}
+      {isOpen && <p className="text-xl">{answer}</p>}
     </div>
   );
 }
 
 function FAQList({ faqs }: FAQListProps) {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col gap-10">
       {faqs.map((faq, index) => (
         <FAQ key={index} question={faq.question} answer={faq.answer} />
       ))}
@@ -71,7 +71,7 @@ export default function FAQPage() {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center w-[100vw] bg-black bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] text-white">
+    <section className="flex flex-col items-center justify-center mt-32 w-[100vw] bg-black bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] text-white">
       <h3 className="text-6xl font-bold mb-10">Frequently Asked Questions</h3>
       <FAQList faqs={faqs} />
     </section>
