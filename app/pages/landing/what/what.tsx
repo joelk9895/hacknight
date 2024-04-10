@@ -20,7 +20,7 @@ export default function What() {
       ref={container}
       className="w-[100svw] h-[800vh] bg-black text-white"
     >
-      <div className="w-full h-[100svh] sticky top-0 left-0 flex flex-col items-center justify-center bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
+      <div className="w-full h-[100vh] sticky top-0 left-0 flex flex-col items-center justify-center bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
         <motion.h2
           className="text-[5rem] font-bold flex"
           style={{ scale: scale1, opacity: opacity1 }}

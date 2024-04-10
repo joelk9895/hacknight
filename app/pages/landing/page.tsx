@@ -1,6 +1,7 @@
 import Hero from "./hero/hero";
 import What from "./what/what";
 import How from "./how/how";
+import Timeline from "./timeline/Timeline";
 
 export default function Landing() {
   return (
@@ -8,6 +9,7 @@ export default function Landing() {
       <Hero />
       <What />
       <How />
+      <Timeline />
     </>
   );
 }
