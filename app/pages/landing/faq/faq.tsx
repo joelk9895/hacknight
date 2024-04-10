@@ -71,7 +71,7 @@ export default function FAQPage() {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center mt-32 w-[100vw] bg-black bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] text-white">
+    <section className="flex flex-col items-center justify-center pt-32 w-[100vw] bg-black bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] text-white">
       <h3 className="text-6xl font-bold mb-10">Frequently Asked Questions</h3>
       <FAQList faqs={faqs} />
     </section>

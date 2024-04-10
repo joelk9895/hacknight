@@ -8,7 +8,7 @@ export default function FeedBack() {
         <div className="flex gap-10 track">
           <div className="flex flex-col items-center justify-center w-[30vw] h-[20vh] bg-black text-white rounded-xl text-center">
             <p>
-              In one word, adipoli.The name speaking for itself, it's really
+              In one word, adipoli.The name speaking for itself, it&apos;s really
               cool opportunity to tinker with tools and build intresting stuff.{" "}
             </p>
           </div>
@@ -34,8 +34,9 @@ export default function FeedBack() {
         <div className="flex gap-10 track">
           <div className="flex flex-col items-center justify-center w-[30vw] h-[20vh] bg-black text-white rounded-xl text-center">
             <p>
-              In one word, adipoli.The name speaking for itself, it's really
-              cool opportunity to tinker with tools and build intresting stuff.{" "}
+              In one word, adipoli.The name speaking for itself, it&apos;s
+              really cool opportunity to tinker with tools and build intresting
+              stuff.{" "}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center w-[30vw] h-[20vh] bg-black text-white rounded-xl text-center">
