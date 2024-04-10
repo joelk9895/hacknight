@@ -10,7 +10,7 @@ export default function Timeline() {
   });
 
   const y = useSpring(scrollYProgress, { stiffness: 400, damping: 90 });
-  const x = useTransform(scrollYProgress, [0, 1], ["50%", "-195%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["50%", "-145%"]);
 
   return (
     <section
@@ -22,23 +22,23 @@ export default function Timeline() {
           how it works<span className="text-[#DBF72C] text-[5rem]">?</span>
         </h1>
         <motion.div className="flex gap-[5rem]" style={{ x }}>
-          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[40vw] md:h-[40vh]">
-            <h4 className="text-7xl font-medium">Create a repo1</h4>
+          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[30vw] md:h-[30vh]">
+            <h4 className="text-4xl font-medium">Create a repo1</h4>
           </div>
-          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[40vw] md:h-[40vh]">
-            <h4 className="text-7xl font-medium">Create a repo2</h4>
+          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[30vw] md:h-[30vh]">
+            <h4 className="text-4xl font-medium">Create a repo2</h4>
           </div>
-          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[40vw] md:h-[40vh]">
-            <h4 className="text-7xl font-medium">Create a repo3</h4>
+          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[30vw] md:h-[30vh]">
+            <h4 className="text-4xl font-medium">Create a repo3</h4>
           </div>
-          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[40vw] md:h-[40vh]">
-            <h4 className="text-7xl font-medium">Create a repo4</h4>
+          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[30vw] md:h-[30vh]">
+            <h4 className="text-4xl font-medium">Create a repo4</h4>
           </div>
-          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[40vw] md:h-[40vh]">
-            <h4 className="text-7xl font-medium">Create a repo5</h4>
+          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[30vw] md:h-[30vh]">
+            <h4 className="text-4xl font-medium">Create a repo5</h4>
           </div>
-          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[40vw] md:h-[40vh]">
-            <h4 className="text-7xl font-medium">Create a repo6</h4>
+          <div className="flex min-w-[90vw] h-[90vh] bg-[#DBF72C] rounded-3xl items-center justify-center md:min-w-[30vw] md:h-[30vh]">
+            <h4 className="text-4xl font-medium">Create a repo6</h4>
           </div>
         </motion.div>
       </div>
